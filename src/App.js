@@ -49,27 +49,27 @@ function App() {
         <div style={posicaoMaior==0&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''}&& posicaoMenor==0? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca1" >
           <h4>Vaca 1</h4>
           <img src={vaca} />
-          <input onChange={event => setVaca1(event.target.value)} value={vaca1} type="number" />
+          <input placeholder="peso em kg" onChange={event => setVaca1(event.target.value)} value={vaca1} type="number" />
         </div>
-        <div style={posicaoMaior==1&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''} && posicaoMenor==1? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca2" >
+        <div placeholder="peso em kg" style={posicaoMaior==1&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''} && posicaoMenor==1? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca2" >
           <h4>Vaca 2</h4>
           <img src={vaca} />
-          <input onChange={event => setVaca2(event.target.value)} value={vaca2} type="number" />
+          <input placeholder="peso em kg" onChange={event => setVaca2(event.target.value)} value={vaca2} type="number" />
         </div>
         <div style={posicaoMaior==2&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''}&& posicaoMenor==2? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca3" >
           <h4>Vaca 3</h4>
           <img src={vaca} />
-          <input onChange={event => setVaca3(event.target.value)} value={vaca3} type="number" />
+          <input placeholder="peso em kg" onChange={event => setVaca3(event.target.value)} value={vaca3} type="number" />
         </div>
         <div style={posicaoMaior==3&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''}&& posicaoMenor==3? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca4" >
           <h4>Vaca 4</h4>
           <img src={vaca} />
-          <input onChange={event => setVaca4(event.target.value)} value={vaca4} type="number" />
+          <input placeholder="peso em kg" onChange={event => setVaca4(event.target.value)} value={vaca4} type="number" />
         </div>
         <div style={posicaoMaior==4&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''} && posicaoMenor==4? {border: 'dashed', borderColor:'blue'}:{border:''} } className="Vaca5" >
           <h4>Vaca 5</h4>
           <img src={vaca} />
-          <input onChange={event => setVaca5(event.target.value)} value={vaca5} type="number" />
+          <input placeholder="peso em kg" onChange={event => setVaca5(event.target.value)} value={vaca5} type="number" />
         </div>
 
       </div>
