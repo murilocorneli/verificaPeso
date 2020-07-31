@@ -8,11 +8,11 @@ import vaca from './assets/vaca.png';
 
 function App() {
 
-  const [vaca1, setVaca1] = useState(0);
-  const [vaca2, setVaca2] = useState(0);
-  const [vaca3, setVaca3] = useState(0);
-  const [vaca4, setVaca4] = useState(0);
-  const [vaca5, setVaca5] = useState(0);
+  const [vaca1, setVaca1] = useState('');
+  const [vaca2, setVaca2] = useState('');
+  const [vaca3, setVaca3] = useState('');
+  const [vaca4, setVaca4] = useState('');
+  const [vaca5, setVaca5] = useState('');
   const [resultado, setResultado] = useState("none");
   const [maiorRes, setMaior] = useState(0);
   const [menorRes, setMenor] = useState(0);
@@ -43,7 +43,6 @@ function App() {
       <div style={{ display: `${resultado}` }} className="resultado">
         <h3 style={{color: 'red'}} >A vaca mais pesada possui {maiorRes}KG</h3>
         <h3 style={{color: 'blue'}}>A vaca mais leve possui {menorRes}KG</h3>
-        
       </div>
       <div className="Balanca">
         <div style={posicaoMaior==0&& maiorRes!=0 ? {border: 'dashed', borderColor:'red'}:{border:''}&& posicaoMenor==0? {border: 'dashed', borderColor:'blue'}:{border:''}  } className="Vaca1" >
